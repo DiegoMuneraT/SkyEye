@@ -1,5 +1,7 @@
-import React from 'react'
+import React from 'react';
 import Box from './Box';
+import image1 from '../images/wifi.png';
+import image2 from '../images/schedule.png';
 
 function Services() {
   return (
@@ -9,7 +11,8 @@ function Services() {
             <p> Let's configurate our software </p>
         </div>
         <div className='b-container'>
-            <Box/>
+            <Box image={image1} alt='image1' button='Wifi'/>
+            <Box image={image2} alt='image2' button='Schedule'/>
         </div>
 
     </div>

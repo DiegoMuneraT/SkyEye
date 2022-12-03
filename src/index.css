@@ -104,6 +104,44 @@ nav .menu-btn,
   display:none;
 }
 
+.cv-btn{
+  width:110px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d0ff00;
+  box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.137);
+  border-radius: 10px;
+  color:#000266;
+}
+
+.cv-btn1{
+  font-size: 14px;
+  width:140px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: 1px solid #ffffff;
+  color:#ffffff;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.cv-btn:hover{
+  background-color: #ffffff;
+  transition: all ease 0.5s;
+  color: #000266;
+}
+
+.cv-btn1:hover{
+  background-color: #ffffff;
+  transition: all ease 0.5s;
+  color: #000266;
+}
+
 /** HEADER **/
 .title{
   font-family: 'Montserrat';
