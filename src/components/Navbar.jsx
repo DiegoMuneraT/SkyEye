@@ -25,5 +25,4 @@ function Navbar() {
     </div>
   )
 }
-// https://github.com/jero98772/LambdaCard-NasaSpaceAppsChalleng 
 export default Navbar;
