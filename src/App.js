@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Header/>
       <div className='f-heading'>
-        <h1>Features</h1>
+        <h1>Featuress</h1>
         <p> This is the main workflow of the project </p>
       </div>
       <Features/>
